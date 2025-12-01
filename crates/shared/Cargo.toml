@@ -1,0 +1,22 @@
+[package]
+name = "shared"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+async-signal.workspace = true
+base64.workspace = true
+chrono.workspace = true
+futures.workspace = true
+hyper.workspace = true
+rcgen.workspace = true
+rustls.workspace = true
+pem.workspace = true
+quinn.workspace = true
+smol.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[dev-dependencies]
+clap.workspace = true
